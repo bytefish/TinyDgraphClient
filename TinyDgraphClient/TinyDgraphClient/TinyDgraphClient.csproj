@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;net461;netstandard2.0;netstandard2.1;netcoreapp3.0</TargetFrameworks>
+    <Authors>Philipp Wagner</Authors>
+    <Company />
+    <Product />
+    <Description>TinyDgraphClient is a thin wrapper for the Dgraph API.</Description>
+    <PackageTags>dgraph</PackageTags>
+    <RepositoryUrl>git://github.com/bytefish/TinyDgraphClient</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/bytefish/TinyDgraphClient</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © 2019 Philipp Wagner</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.1.0</Version>
+    <IncludeSource>True</IncludeSource>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>TinyDgraphClient.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.9.1" />
+    <PackageReference Include="Grpc" Version="2.23.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Remove="Async\**" />
+    <EmbeddedResource Remove="Async\**" />
+    <None Remove="Async\**" />
+  </ItemGroup>
+
+
+</Project>
