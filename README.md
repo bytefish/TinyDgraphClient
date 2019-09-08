@@ -15,10 +15,10 @@ public static async Task Main()
 {
     var client = new DGraphClient("127.0.0.1", 9080, ChannelCredentials.Insecure);
 
-    // Drop All:
+    // Drop All Data for Tests:
     await client.AlterAsync(new Operation { DropAll = true }, CancellationToken.None);
 
-    // Create the Schema and Drop all data for the test:
+    // Create the Schema:
     await client.AlterAsync(new Operation { Schema = Query.Schema }, CancellationToken.None);
             
     // Insert Data:
