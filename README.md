@@ -6,6 +6,15 @@
 
 [TinyDgraphClient] is a thin wrapper for the Dgraph API. It is based on the great [DGraph Dart Client] by [@marceloneppel](https://github.com/marceloneppel).
 
+## Installing TinyDgraphClient ##
+
+You can use [NuGet](https://www.nuget.org) to install [TinyDgraphClient]. Run the following command 
+in the [Package Manager Console](http://docs.nuget.org/consume/package-manager-console).
+
+```
+PM> Install-Package TinyDgraphClient
+```
+
 ## Using the DGraphClient ##
 
 ### Create the Schema ###
