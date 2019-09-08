@@ -2,6 +2,7 @@
 
 [MIT License]: https://opensource.org/licenses/MIT
 [DGraph Dart Client]: https://github.com/marceloneppel/dgraph
+[TinyDgraphClient]: https://github.com/bytefish/TinyDgraphClient
 
 [TinyDgraphClient] is a thin wrapper for the Dgraph API. It is based on the great [DGraph Dart Client] by [@marceloneppel](https://github.com/marceloneppel).
 
