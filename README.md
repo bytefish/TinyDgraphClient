@@ -47,7 +47,7 @@ var transaction = client.NewTxn();
 // Create a Mutation:
 var mutation = new Mutation();
 
-// Create NQuads Triples to add to the mutation:
+// Create NQuads to add to the mutation:
 var nquads = new List<NQuad>();
 
 nquads.Add(new NQuad { Subject = "subject", Predicate = "predicate", ObjectValue = new Value { StrVal = "value" } });
