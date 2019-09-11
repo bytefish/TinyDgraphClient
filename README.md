@@ -66,4 +66,4 @@ await transaction.MutateAsync(mutation, cancellationToken);
 
 The library is released under terms of the [MIT License]:
 
-* [https://github.com/bytefish/TinyCsvParser](https://github.com/bytefish/TinyCsvParser)
+* [https://github.com/bytefish/TinyDgraphClient](https://github.com/bytefish/TinyDgraphClient)
